@@ -1,0 +1,36 @@
+{
+  "name": "leapmotion-robot-hand-controller",
+  "version": "1.0.0",
+  "description": "Controlling simple robot hand using Leap Motion",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marborkowski/leapmotion-robot-hand-controller.git"
+  },
+  "keywords": [
+    "leap",
+    "motion",
+    "robot",
+    "hand",
+    "robotic",
+    "nodejs",
+    "javascript",
+    "node",
+    "cylonjs"
+  ],
+  "author": "Marcin Borkowski <marcin.borkowski@protonmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marborkowski/leapmotion-robot-hand-controller/issues"
+  },
+  "homepage": "https://github.com/marborkowski/leapmotion-robot-hand-controller#readme",
+  "dependencies": {
+    "cylon": "^1.2.0",
+    "cylon-leapmotion": "^0.20.0",
+    "node-gyp": "^3.0.3",
+    "serialport": "^2.0.1"
+  }
+}

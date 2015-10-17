@@ -1,0 +1,1139 @@
+/** This is only some debug data from the Leap Motion controller. **/
+
+{id: 152,
+  palmPosition: [
+    120.131,
+    127.087,
+    180.431
+  ],
+  direction: [
+    0.46153,
+    0.275573,
+    -0.843238
+  ],
+  palmVelocity: [
+    404.92,
+    -260.189,
+    448.031
+  ],
+  palmNormal: [
+    0.700291,
+    -0.696691,
+    0.15561
+  ],
+  sphereCenter: [
+    156.46,
+    98.7898,
+    172.919
+  ],
+  sphereRadius: 39.4422,
+  valid: true,
+  pointables: [
+    {
+      valid: true,
+      id: 1520,
+      handId: 152,
+      length: 50.9904,
+      tool: false,
+      width: 19.8125,
+      direction: [Object],
+      stabilizedTipPosition: [Object],
+      tipPosition: [Object],
+      tipVelocity: [Object],
+      touchZone: 'none',
+      touchDistance: 1,
+      timeVisible: 0.641813,
+      dipPosition: [Object],
+      pipPosition: [Object],
+      mcpPosition: [Object],
+      carpPosition: [Object],
+      extended: false,
+      type: 0,
+      finger: true,
+      positions: [Object],
+      metacarpal: [Object],
+      proximal: [Object],
+      medial: [Object],
+      distal: [Object],
+      bones: [Object],
+      frame: [Object]
+    },
+    {
+      valid: true,
+      id: 1521,
+      handId: 152,
+      length: 57.537,
+      tool: false,
+      width: 18.9249,
+      direction: [Object],
+      stabilizedTipPosition: [Object],
+      tipPosition: [Object],
+      tipVelocity: [Object],
+      touchZone: 'none',
+      touchDistance: 1,
+      timeVisible: 0.641813,
+      dipPosition: [Object],
+      pipPosition: [Object],
+      mcpPosition: [Object],
+      carpPosition: [Object],
+      extended: false,
+      type: 1,
+      finger: true,
+      positions: [Object],
+      metacarpal: [Object],
+      proximal: [Object],
+      medial: [Object],
+      distal: [Object],
+      bones: [Object],
+      frame: [Object]
+    },
+    {
+      valid: true,
+      id: 1522,
+      handId: 152,
+      length: 65.5588,
+      tool: false,
+      width: 18.5868,
+      direction: [Object],
+      stabilizedTipPosition: [Object],
+      tipPosition: [Object],
+      tipVelocity: [Object],
+      touchZone: 'none',
+      touchDistance: 1,
+      timeVisible: 0.641813,
+      dipPosition: [Object],
+      pipPosition: [Object],
+      mcpPosition: [Object],
+      carpPosition: [Object],
+      extended: false,
+      type: 2,
+      finger: true,
+      positions: [Object],
+      metacarpal: [Object],
+      proximal: [Object],
+      medial: [Object],
+      distal: [Object],
+      bones: [Object],
+      frame: [Object]
+    },
+    {
+      valid: true,
+      id: 1523,
+      handId: 152,
+      length: 63.0365,
+      tool: false,
+      width: 17.6865,
+      direction: [Object],
+      stabilizedTipPosition: [Object],
+      tipPosition: [Object],
+      tipVelocity: [Object],
+      touchZone: 'none',
+      touchDistance: 1,
+      timeVisible: 0.641813,
+      dipPosition: [Object],
+      pipPosition: [Object],
+      mcpPosition: [Object],
+      carpPosition: [Object],
+      extended: false,
+      type: 3,
+      finger: true,
+      positions: [Object],
+      metacarpal: [Object],
+      proximal: [Object],
+      medial: [Object],
+      distal: [Object],
+      bones: [Object],
+      frame: [Object]
+    },
+    {
+      valid: true,
+      id: 1524,
+      handId: 152,
+      length: 49.4195,
+      tool: false,
+      width: 15.7105,
+      direction: [Object],
+      stabilizedTipPosition: [Object],
+      tipPosition: [Object],
+      tipVelocity: [Object],
+      touchZone: 'none',
+      touchDistance: 1,
+      timeVisible: 0.641813,
+      dipPosition: [Object],
+      pipPosition: [Object],
+      mcpPosition: [Object],
+      carpPosition: [Object],
+      extended: false,
+      type: 4,
+      finger: true,
+      positions: [Object],
+      metacarpal: [Object],
+      proximal: [Object],
+      medial: [Object],
+      distal: [Object],
+      bones: [Object],
+      frame: [Object]
+    }
+  ],
+  fingers: [
+    {
+      valid: true,
+      id: 1520,
+      handId: 152,
+      length: 50.9904,
+      tool: false,
+      width: 19.8125,
+      direction: [Object],
+      stabilizedTipPosition: [Object],
+      tipPosition: [Object],
+      tipVelocity: [Object],
+      touchZone: 'none',
+      touchDistance: 1,
+      timeVisible: 0.641813,
+      dipPosition: [Object],
+      pipPosition: [Object],
+      mcpPosition: [Object],
+      carpPosition: [Object],
+      extended: false,
+      type: 0,
+      finger: true,
+      positions: [Object],
+      metacarpal: [Object],
+      proximal: [Object],
+      medial: [Object],
+      distal: [Object],
+      bones: [Object],
+      frame: [Object]
+    },
+    {
+      valid: true,
+      id: 1521,
+      handId: 152,
+      length: 57.537,
+      tool: false,
+      width: 18.9249,
+      direction: [Object],
+      stabilizedTipPosition: [Object],
+      tipPosition: [Object],
+      tipVelocity: [Object],
+      touchZone: 'none',
+      touchDistance: 1,
+      timeVisible: 0.641813,
+      dipPosition: [Object],
+      pipPosition: [Object],
+      mcpPosition: [Object],
+      carpPosition: [Object],
+      extended: false,
+      type: 1,
+      finger: true,
+      positions: [Object],
+      metacarpal: [Object],
+      proximal: [Object],
+      medial: [Object],
+      distal: [Object],
+      bones: [Object],
+      frame: [Object]
+    },
+    {
+      valid: true,
+      id: 1522,
+      handId: 152,
+      length: 65.5588,
+      tool: false,
+      width: 18.5868,
+      direction: [Object],
+      stabilizedTipPosition: [Object],
+      tipPosition: [Object],
+      tipVelocity: [Object],
+      touchZone: 'none',
+      touchDistance: 1,
+      timeVisible: 0.641813,
+      dipPosition: [Object],
+      pipPosition: [Object],
+      mcpPosition: [Object],
+      carpPosition: [Object],
+      extended: false,
+      type: 2,
+      finger: true,
+      positions: [Object],
+      metacarpal: [Object],
+      proximal: [Object],
+      medial: [Object],
+      distal: [Object],
+      bones: [Object],
+      frame: [Object]
+    },
+    {
+      valid: true,
+      id: 1523,
+      handId: 152,
+      length: 63.0365,
+      tool: false,
+      width: 17.6865,
+      direction: [Object],
+      stabilizedTipPosition: [Object],
+      tipPosition: [Object],
+      tipVelocity: [Object],
+      touchZone: 'none',
+      touchDistance: 1,
+      timeVisible: 0.641813,
+      dipPosition: [Object],
+      pipPosition: [Object],
+      mcpPosition: [Object],
+      carpPosition: [Object],
+      extended: false,
+      type: 3,
+      finger: true,
+      positions: [Object],
+      metacarpal: [Object],
+      proximal: [Object],
+      medial: [Object],
+      distal: [Object],
+      bones: [Object],
+      frame: [Object]
+    },
+    {
+      valid: true,
+      id: 1524,
+      handId: 152,
+      length: 49.4195,
+      tool: false,
+      width: 15.7105,
+      direction: [Object],
+      stabilizedTipPosition: [Object],
+      tipPosition: [Object],
+      tipVelocity: [Object],
+      touchZone: 'none',
+      touchDistance: 1,
+      timeVisible: 0.641813,
+      dipPosition: [Object],
+      pipPosition: [Object],
+      mcpPosition: [Object],
+      carpPosition: [Object],
+      extended: false,
+      type: 4,
+      finger: true,
+      positions: [Object],
+      metacarpal: [Object],
+      proximal: [Object],
+      medial: [Object],
+      distal: [Object],
+      bones: [Object],
+      frame: [Object]
+    }
+  ],
+  arm: {
+    finger: [Circular],
+    _center: null,
+    _matrix: null,
+    type: 4,
+    prevJoint: [
+      -169.649,
+      79.5217,
+      265.932
+    ],
+    nextJoint: [
+      88.7256,
+      110.533,
+      220.487
+    ],
+    width: 62.3434,
+    length: 264.1673384009651,
+    basis: [
+      [Object],
+      [Object],
+      [Object]
+    ]
+  },
+  tools: [],
+  _translation: [
+    64.302,
+    -18.0607,
+    79.3907
+  ],
+  _rotation: [
+    0.995785,
+    -0.0573834,
+    -0.0715449,
+    0.040249,
+    0.974373,
+    -0.221308,
+    0.0824108,
+    0.217496,
+    0.972576
+  ],
+  _scaleFactor: 1.08584,
+  timeVisible: 0.641813,
+  stabilizedPalmPosition: [
+    69.5988,
+    138.746,
+    112.199
+  ],
+  type: 'left',
+  grabStrength: 1,
+  pinchStrength: 0.512102,
+  confidence: 0.121464,
+  frame: {
+    valid: true,
+    id: 139148,
+    timestamp: 39470721062,
+    hands: [[Circular]],
+    handsMap: {'152': [Circular]},
+    pointables: [
+      [Object],
+      [Object],
+      [Object],
+      [Object],
+      [Object]
+    ],
+    tools: [],
+    fingers: [
+      [Object],
+      [Object],
+      [Object],
+      [Object],
+      [Object]
+    ],
+    interactionBox: {
+      valid: true,
+      center: [Object],
+      size: [Object],
+      width: 235.247,
+      height: 235.247,
+      depth: 147.751
+    },
+    gestures: [],
+    pointablesMap: {
+      '1520': [Object],
+      '1521': [Object],
+      '1522': [Object],
+      '1523': [Object],
+      '1524': [Object]
+    },
+    _translation: [
+      64.302,
+      -18.0607,
+      79.3907
+    ],
+    _rotation: [
+      0.995785,
+      -0.0573834,
+      -0.0715449,
+      0.040249,
+      0.974373,
+      -0.221308,
+      0.0824108,
+      0.217496,
+      0.972576
+    ],
+    _scaleFactor: 1.08584,
+    data: {
+      currentFrameRate: 53.3989,
+      devices: [],
+      gestures: [],
+      hands: [Object],
+      id: 139148,
+      interactionBox: [Object],
+      pointables: [Object],
+      r: [Object],
+      s: 1.08584,
+      t: [Object],
+      timestamp: 39470721062
+    },
+    type: 'frame',
+    currentFrameRate: 53.3989,
+    controller: {
+      inNode: '4.1.2',
+      animationFrameRequested: false,
+      onAnimationFrame: [Function],
+      suppressAnimationLoop: true,
+      loopWhileDisconnected: true,
+      frameEventName: 'deviceFrame',
+      useAllPlugins: false,
+      history: [Object],
+      lastFrame: [Circular],
+      lastValidFrame: [Circular],
+      lastConnectionFrame: [Circular],
+      accumulatedGestures: [],
+      checkVersion: true,
+      connectionType: [Function],
+      connection: [Object],
+      streamingCount: 1,
+      devices: [Object],
+      plugins: {},
+      _pluginPipelineSteps: {},
+      _pluginExtendedMethods: {},
+      _events: [Object],
+      _eventsCount: 4
+    },
+    historyIdx: 73
+  },
+  thumb: {
+    valid: true,
+    id: 1520,
+    handId: 152,
+    length: 50.9904,
+    tool: false,
+    width: 19.8125,
+    direction: [
+      0.877308,
+      0.0442064,
+      -0.477888
+    ],
+    stabilizedTipPosition: [
+      149.487,
+      131.591,
+      131.321
+    ],
+    tipPosition: [
+      198.225,
+      133.664,
+      198.712
+    ],
+    tipVelocity: [
+      488.943,
+      -273.346,
+      253.067
+    ],
+    touchZone: 'none',
+    touchDistance: 1,
+    timeVisible: 0.641813,
+    dipPosition: [
+      183.671,
+      135.54,
+      208.701
+    ],
+    pipPosition: [
+      154.405,
+      134.066,
+      224.643
+    ],
+    mcpPosition: [
+      109.77,
+      120.723,
+      239.306
+    ],
+    carpPosition: [
+      109.77,
+      120.723,
+      239.306
+    ],
+    extended: false,
+    type: 0,
+    finger: true,
+    positions: [
+      [Object],
+      [Object],
+      [Object],
+      [Object],
+      [Object]
+    ],
+    metacarpal: {
+      finger: [Circular],
+      _center: null,
+      _matrix: null,
+      type: 0,
+      prevJoint: [Object],
+      nextJoint: [Object],
+      width: 19.8125,
+      length: 0,
+      basis: [Object]
+    },
+    proximal: {
+      finger: [Circular],
+      _center: null,
+      _matrix: null,
+      type: 1,
+      prevJoint: [Object],
+      nextJoint: [Object],
+      width: 19.8125,
+      length: 48.83976292940007,
+      basis: [Object]
+    },
+    medial: {
+      finger: [Circular],
+      _center: null,
+      _matrix: null,
+      type: 2,
+      prevJoint: [Object],
+      nextJoint: [Object],
+      width: 19.8125,
+      length: 33.35893877208925,
+      basis: [Object]
+    },
+    distal: {
+      finger: [Circular],
+      _center: null,
+      _matrix: null,
+      type: 3,
+      prevJoint: [Object],
+      nextJoint: [Object],
+      width: 19.8125,
+      length: 22.897451059015278,
+      basis: [Object]
+    },
+    bones: [
+      [Object],
+      [Object],
+      [Object],
+      [Object]
+    ],
+    frame: {
+      valid: true,
+      id: 139148,
+      timestamp: 39470721062,
+      hands: [Object],
+      handsMap: [Object],
+      pointables: [Object],
+      tools: [],
+      fingers: [Object],
+      interactionBox: [Object],
+      gestures: [],
+      pointablesMap: [Object],
+      _translation: [Object],
+      _rotation: [Object],
+      _scaleFactor: 1.08584,
+      data: [Object],
+      type: 'frame',
+      currentFrameRate: 53.3989,
+      controller: [Object],
+      historyIdx: 73
+    }
+  },
+  indexFinger: {
+    valid: true,
+    id: 1521,
+    handId: 152,
+    length: 57.537,
+    tool: false,
+    width: 18.9249,
+    direction: [
+      -0.0135063,
+      -0.750229,
+      0.66104
+    ],
+    stabilizedTipPosition: [
+      105.107,
+      109.846,
+      111.355
+    ],
+    tipPosition: [
+      170.806,
+      103.019,
+      196.89
+    ],
+    tipVelocity: [
+      385.366,
+      -286.261,
+      393.559
+    ],
+    touchZone: 'none',
+    touchDistance: 1,
+    timeVisible: 0.641813,
+    dipPosition: [
+      177.066,
+      109.212,
+      187.649
+    ],
+    pipPosition: [
+      177.386,
+      126.954,
+      172.017
+    ],
+    mcpPosition: [
+      143.281,
+      151.524,
+      172.079
+    ],
+    carpPosition: [
+      96.9073,
+      131.709,
+      223.44
+    ],
+    extended: false,
+    type: 1,
+    finger: true,
+    positions: [
+      [Object],
+      [Object],
+      [Object],
+      [Object],
+      [Object]
+    ],
+    metacarpal: {
+      finger: [Circular],
+      _center: null,
+      _matrix: null,
+      type: 0,
+      prevJoint: [Object],
+      nextJoint: [Object],
+      width: 18.9249,
+      length: 71.97990412392892,
+      basis: [Object]
+    },
+    proximal: {
+      finger: [Circular],
+      _center: null,
+      _matrix: null,
+      type: 1,
+      prevJoint: [Object],
+      nextJoint: [Object],
+      width: 18.9249,
+      length: 42.0337931788222,
+      basis: [Object]
+    },
+    medial: {
+      finger: [Circular],
+      _center: null,
+      _matrix: null,
+      type: 2,
+      prevJoint: [Object],
+      nextJoint: [Object],
+      width: 18.9249,
+      length: 23.648263953195375,
+      basis: [Object]
+    },
+    distal: {
+      finger: [Circular],
+      _center: null,
+      _matrix: null,
+      type: 3,
+      prevJoint: [Object],
+      nextJoint: [Object],
+      width: 18.9249,
+      length: 16.715801566182833,
+      basis: [Object]
+    },
+    bones: [
+      [Object],
+      [Object],
+      [Object],
+      [Object]
+    ],
+    frame: {
+      valid: true,
+      id: 139148,
+      timestamp: 39470721062,
+      hands: [Object],
+      handsMap: [Object],
+      pointables: [Object],
+      tools: [],
+      fingers: [Object],
+      interactionBox: [Object],
+      gestures: [],
+      pointablesMap: [Object],
+      _translation: [Object],
+      _rotation: [Object],
+      _scaleFactor: 1.08584,
+      data: [Object],
+      type: 'frame',
+      currentFrameRate: 53.3989,
+      controller: [Object],
+      historyIdx: 73
+    }
+  },
+  middleFinger: {
+    valid: true,
+    id: 1522,
+    handId: 152,
+    length: 65.5588,
+    tool: false,
+    width: 18.5868,
+    direction: [
+      0.0762782,
+      -0.565739,
+      0.821049
+    ],
+    stabilizedTipPosition: [
+      100.122,
+      102.546,
+      111.32
+    ],
+    tipPosition: [
+      166.707,
+      93.4468,
+      198.627
+    ],
+    tipVelocity: [
+      388.344,
+      -281.295,
+      411.547
+    ],
+    touchZone: 'none',
+    touchDistance: 1,
+    timeVisible: 0.641813,
+    dipPosition: [
+      172.017,
+      97.9077,
+      186.774
+    ],
+    pipPosition: [
+      169.894,
+      113.648,
+      163.931
+    ],
+    mcpPosition: [
+      130.116,
+      138.755,
+      160.571
+    ],
+    carpPosition: [
+      90.7855,
+      125.88,
+      214.857
+    ],
+    extended: false,
+    type: 2,
+    finger: true,
+    positions: [
+      [Object],
+      [Object],
+      [Object],
+      [Object],
+      [Object]
+    ],
+    metacarpal: {
+      finger: [Circular],
+      _center: null,
+      _matrix: null,
+      type: 0,
+      prevJoint: [Object],
+      nextJoint: [Object],
+      width: 18.5868,
+      length: 68.26143604737598,
+      basis: [Object]
+    },
+    proximal: {
+      finger: [Circular],
+      _center: null,
+      _matrix: null,
+      type: 1,
+      prevJoint: [Object],
+      nextJoint: [Object],
+      width: 18.5868,
+      length: 47.15867187485245,
+      basis: [Object]
+    },
+    medial: {
+      finger: [Circular],
+      _center: null,
+      _matrix: null,
+      type: 2,
+      prevJoint: [Object],
+      nextJoint: [Object],
+      width: 18.5868,
+      length: 27.822056395780653,
+      basis: [Object]
+    },
+    distal: {
+      finger: [Circular],
+      _center: null,
+      _matrix: null,
+      type: 3,
+      prevJoint: [Object],
+      nextJoint: [Object],
+      width: 18.5868,
+      length: 18.38594713470045,
+      basis: [Object]
+    },
+    bones: [
+      [Object],
+      [Object],
+      [Object],
+      [Object]
+    ],
+    frame: {
+      valid: true,
+      id: 139148,
+      timestamp: 39470721062,
+      hands: [Object],
+      handsMap: [Object],
+      pointables: [Object],
+      tools: [],
+      fingers: [Object],
+      interactionBox: [Object],
+      gestures: [],
+      pointablesMap: [Object],
+      _translation: [Object],
+      _rotation: [Object],
+      _scaleFactor: 1.08584,
+      data: [Object],
+      type: 'frame',
+      currentFrameRate: 53.3989,
+      controller: [Object],
+      historyIdx: 73
+    }
+  },
+  ringFinger: {
+    valid: true,
+    id: 1523,
+    handId: 152,
+    length: 63.0365,
+    tool: false,
+    width: 17.6865,
+    direction: [
+      0.199994,
+      -0.470157,
+      0.859625
+    ],
+    stabilizedTipPosition: [
+      91.2996,
+      97.46,
+      105.97
+    ],
+    tipPosition: [
+      155.197,
+      85.1816,
+      192.332
+    ],
+    tipVelocity: [
+      379.531,
+      -285.256,
+      439.296
+    ],
+    touchZone: 'none',
+    touchDistance: 1,
+    timeVisible: 0.641813,
+    dipPosition: [
+      158.91,
+      88.4245,
+      179.564
+    ],
+    pipPosition: [
+      153.489,
+      101.167,
+      156.265
+    ],
+    mcpPosition: [
+      115.558,
+      122.853,
+      154.891
+    ],
+    carpPosition: [
+      85.4793,
+      117.535,
+      208.024
+    ],
+    extended: false,
+    type: 3,
+    finger: true,
+    positions: [
+      [Object],
+      [Object],
+      [Object],
+      [Object],
+      [Object]
+    ],
+    metacarpal: {
+      finger: [Circular],
+      _center: null,
+      _matrix: null,
+      type: 0,
+      prevJoint: [Object],
+      nextJoint: [Object],
+      width: 17.6865,
+      length: 61.28723363548074,
+      basis: [Object]
+    },
+    proximal: {
+      finger: [Circular],
+      _center: null,
+      _matrix: null,
+      type: 1,
+      prevJoint: [Object],
+      nextJoint: [Object],
+      width: 17.6865,
+      length: 43.714199443659034,
+      basis: [Object]
+    },
+    medial: {
+      finger: [Circular],
+      _center: null,
+      _matrix: null,
+      type: 2,
+      prevJoint: [Object],
+      nextJoint: [Object],
+      width: 17.6865,
+      length: 27.103541249253766,
+      basis: [Object]
+    },
+    distal: {
+      finger: [Circular],
+      _center: null,
+      _matrix: null,
+      type: 3,
+      prevJoint: [Object],
+      nextJoint: [Object],
+      width: 17.6865,
+      length: 18.28009459056491,
+      basis: [Object]
+    },
+    bones: [
+      [Object],
+      [Object],
+      [Object],
+      [Object]
+    ],
+    frame: {
+      valid: true,
+      id: 139148,
+      timestamp: 39470721062,
+      hands: [Object],
+      handsMap: [Object],
+      pointables: [Object],
+      tools: [],
+      fingers: [Object],
+      interactionBox: [Object],
+      gestures: [],
+      pointablesMap: [Object],
+      _translation: [Object],
+      _rotation: [Object],
+      _scaleFactor: 1.08584,
+      data: [Object],
+      type: 'frame',
+      currentFrameRate: 53.3989,
+      controller: [Object],
+      historyIdx: 73
+    }
+  },
+  pinky: {
+    valid: true,
+    id: 1524,
+    handId: 152,
+    length: 49.4195,
+    tool: false,
+    width: 15.7105,
+    direction: [
+      0.361902,
+      -0.332769,
+      0.870799
+    ],
+    stabilizedTipPosition: [
+      91.9553,
+      99.2525,
+      110.679
+    ],
+    tipPosition: [
+      141.48,
+      83.7654,
+      181.309
+    ],
+    tipVelocity: [
+      354.34,
+      -293.868,
+      455.565
+    ],
+    touchZone: 'none',
+    touchDistance: 1,
+    timeVisible: 0.641813,
+    dipPosition: [
+      143.481,
+      85.7418,
+      168.323
+    ],
+    pipPosition: [
+      136.556,
+      92.1097,
+      151.659
+    ],
+    mcpPosition: [
+      104.541,
+      105.189,
+      152.55
+    ],
+    carpPosition: [
+      83.212,
+      104.109,
+      205.109
+    ],
+    extended: false,
+    type: 4,
+    finger: true,
+    positions: [
+      [Object],
+      [Object],
+      [Object],
+      [Object],
+      [Object]
+    ],
+    metacarpal: {
+      finger: [Circular],
+      _center: null,
+      _matrix: null,
+      type: 0,
+      prevJoint: [Object],
+      nextJoint: [Object],
+      width: 15.7105,
+      length: 56.73218770680362,
+      basis: [Object]
+    },
+    proximal: {
+      finger: [Circular],
+      _center: null,
+      _matrix: null,
+      type: 1,
+      prevJoint: [Object],
+      nextJoint: [Object],
+      width: 15.7105,
+      length: 34.59511807307501,
+      basis: [Object]
+    },
+    medial: {
+      finger: [Circular],
+      _center: null,
+      _matrix: null,
+      type: 2,
+      prevJoint: [Object],
+      nextJoint: [Object],
+      width: 15.7105,
+      length: 19.13621361215432,
+      basis: [Object]
+    },
+    distal: {
+      finger: [Circular],
+      _center: null,
+      _matrix: null,
+      type: 3,
+      prevJoint: [Object],
+      nextJoint: [Object],
+      width: 15.7105,
+      length: 16.86401306955139,
+      basis: [Object]
+    },
+    bones: [
+      [Object],
+      [Object],
+      [Object],
+      [Object]
+    ],
+    frame: {
+      valid: true,
+      id: 139148,
+      timestamp: 39470721062,
+      hands: [Object],
+      handsMap: [Object],
+      pointables: [Object],
+      tools: [],
+      fingers: [Object],
+      interactionBox: [Object],
+      gestures: [],
+      pointablesMap: [Object],
+      _translation: [Object],
+      _rotation: [Object],
+      _scaleFactor: 1.08584,
+      data: [Object],
+      type: 'frame',
+      currentFrameRate: 53.3989,
+      controller: [Object],
+      historyIdx: 73
+    }
+  },
+  palmX: 120.131,
+  palmY: 127.087,
+  palmZ: 180.431,
+  rotation: {
+    axis: 0.995785,
+    angle: -0.0573834,
+    matrix: -0.0715449
+  }
+}
