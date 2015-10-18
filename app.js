@@ -178,7 +178,7 @@
      * Kill app on CTRL+C
      */
     process.on('SIGINT', function () {
-        console.log('Bye!');
+        console.info('Bye!');
         lm.app.serial.router.close();
         process.exit();
     });
