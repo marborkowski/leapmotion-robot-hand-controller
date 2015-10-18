@@ -18,3 +18,6 @@ Plug in your Arduino compatible device, then:
 ```sh
 $ node app.js
 ```
+
+### Arduino sketch
+[Download](arduino-sketch/robot-hand/robot-hand.ino)
