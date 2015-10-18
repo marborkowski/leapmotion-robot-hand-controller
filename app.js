@@ -1,23 +1,25 @@
-(function() {
+/*global require, console, process */
+(function () {
+
+    'use strict';
 
     /**
-     * Define '_self' variable
-     * as the reference to 'this'.
+     * Define empty 'lm' object.
      */
-    var _self = this;
+    var lm = {};
 
     /**
      * Load necessary npm modules.
      * @type {{cylon: Object, fs: Object, util: Object, serialport: Object}}
      */
-    this.modules = {
+    lm.modules = {
         cylon: require('cylon'),
         fs: require('fs'),
         util: require('util'),
         serialport: require('serialport')
     };
 
-    this.app = {
+    lm.app = {
 
         /**
          * Various app states.
@@ -31,7 +33,7 @@
          * and define the all needed
          * devices and connections.
          */
-        cylon: _self.modules.cylon.robot({
+        cylon: lm.modules.cylon.robot({
             connections: {
                 leapmotion: {
                     adaptor: 'leapmotion'
@@ -42,30 +44,31 @@
                     driver: 'leapmotion'
                 }
             },
-            work: function(my) {
+            work: function (my) {
                 /**
                  * Handling 'hand' event
                  * from Leap Motion controller.
                  */
-                my.leapmotion.on('hand', function(payload) {
+                my.leapmotion.on('hand', function (payload) {
 
-                    /**
-                     * Calculate straight fingers.
-                     * @type {number}
-                     */
-                    var straightFingers = 0;
+                    var straightFingers = 0,
+                        isPalmOpen;
 
                     /**
                      * Iterate the all fingers.
                      */
-                    payload.fingers.forEach(function(finger, index) {
+                    payload.fingers.forEach(function (finger) {
                         /**
                          * If finger is straight,
                          * we should increase the value
                          * of 'straightFinters' with 1.
                          */
-                        if(finger.extended) {
-                            straightFingers++;
+                        if (finger.extended) {
+                            /**
+                             * Calculate straight fingers.
+                             * @type {number}
+                             */
+                            straightFingers = straightFingers + 1;
                         }
                     });
 
@@ -75,70 +78,74 @@
                      * we should presume that the palm is open.
                      * @type {boolean}
                      */
-                    var isPalmOpen = straightFingers >= 4;
+                    isPalmOpen = straightFingers >= 4;
 
                     /**
                      * If the current state is different
                      * than previous one, update it
                      * and send the necessary data using serial port.
                      */
-                    if(_self.app.states.isPalmOpen !== isPalmOpen) {
-                        _self.app.states.isPalmOpen = isPalmOpen;
-                        _self.app.serial.router.write(isPalmOpen.toString());
+                    if (lm.app.states.isPalmOpen !== isPalmOpen) {
+                        lm.app.states.isPalmOpen = isPalmOpen;
+                        lm.app.serial.router.write(isPalmOpen.toString());
                         console.log('Palm is %s', isPalmOpen ? 'open' : 'closed');
                     }
                 });
             }
         }),
         serial: {
-          router: null,
-          start: function(port) {
-              /**
-               * Init the serial communication
-               * on port described with 'port' attribute.
-               * @type {*|SerialPort}
-               */
-              _self.app.serial.router = new _self.modules.serialport.SerialPort(port, {
-                  baudrate: 115200
-              }, true);
+            router: null,
+            start: function (port) {
+                /**
+                 * Init the serial communication
+                 * on port described with 'port' attribute.
+                 * @type {*|SerialPort}
+                 */
+                lm.app.serial.router = new lm.modules.serialport.SerialPort(port, {
+                    baudrate: 115200
+                }, true);
 
-              /**
-               * Monitor serial port states.
-               */
-              _self.app.serial.router.on('open', function() {
-                  console.log('SerialPort opened on %s', port);
+                /**
+                 * Monitor serial port states.
+                 */
+                lm.app.serial.router.on('open', function () {
+                    console.log('SerialPort opened on %s', port);
 
-                  /**
-                   * Start Cylon library
-                   * if the serial communication is established.
-                   */
-                  _self.app.cylon.start();
-              });
+                    /**
+                     * Start Cylon library
+                     * if the serial communication is established.
+                     */
+                    lm.app.cylon.start();
+                });
 
-              _self.app.serial.router.on('close', function() {
-                  console.log('SerialPort closed.');
-              });
-          }
+                lm.app.serial.router.on('close', function () {
+                    console.log('SerialPort closed.');
+                });
+            }
         },
-        start: function() {
+        start: function () {
 
             /**
              * List the all available USB devices
              * and find the Arduino compatible board.
              */
-            _self.modules.serialport.list(function (err, ports) {
+            lm.modules.serialport.list(function (err, ports) {
+
+                if (err) {
+                    throw new Error(err.message);
+                }
 
                 /**
                  * Filter Arduino compatible devices.
                  */
-                var arduino = ports.filter(function(port) {
-                    return /^arduino/i.test(port.manufacturer);
+                var arduino = ports.filter(function (port) {
+                    return [/^arduino/i].test(port.manufacturer);
                 });
 
                 /**
                  * Behavior depends on the number of compatible devices.
                  */
-                switch(arduino.length) {
+                switch (arduino.length) {
 
                     // No Arduino compatible device...
                     case 0:
@@ -150,7 +157,7 @@
                     case 1:
                         var board = arduino.pop();
                         console.log('Connecting to Arduino board %s on port %s', board.manufacturer, board.comName);
-                        _self.app.serial.start(board.comName);
+                        lm.app.serial.start(board.comName);
                         break;
 
                     // Otherwise...
@@ -165,14 +172,14 @@
         }
     };
 
-    this.app.start();
+    lm.app.start();
 
     /**
      * Kill app on CTRL+C
      */
-    process.on('SIGINT', function() {
+    process.on('SIGINT', function () {
         console.log('Bye!');
-        _self.app.serial.router.close();
+        lm.app.serial.router.close();
         process.exit();
     });
-})();
+}());
