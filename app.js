@@ -19,6 +19,12 @@
         serialport: require('serialport')
     };
 
+    lm.config = {
+        serial: {
+            baudrate: 115200
+        }
+    };
+
     lm.app = {
 
         /**
@@ -102,7 +108,7 @@
                  * @type {*|SerialPort}
                  */
                 lm.app.serial.router = new lm.modules.serialport.SerialPort(port, {
-                    baudrate: 115200
+                    baudrate: lm.config.serial.baudrate
                 }, true);
 
                 /**
