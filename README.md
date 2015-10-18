@@ -13,7 +13,7 @@ $ npm install
 
 -- will install the all unnecessary npm modules.
 
-### Running
+### Running the program
 Plug-in your Arduino compatible device, then:
 ```sh
 $ node app.js
