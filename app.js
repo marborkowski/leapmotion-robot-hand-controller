@@ -145,7 +145,7 @@
                  * Filter Arduino compatible devices.
                  */
                 var arduino = ports.filter(function (port) {
-                    return [/^arduino/i].test(port.manufacturer);
+                    return (/^arduino/i).test(port.manufacturer);
                 });
 
                 /**
