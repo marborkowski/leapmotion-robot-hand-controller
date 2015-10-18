@@ -1,6 +1,6 @@
 # Robot hand controller using Node.js
 
-Description here...
+![Preview](/assets/preview.jpg?raw=true "Preview")
 
 ### Installation
 
