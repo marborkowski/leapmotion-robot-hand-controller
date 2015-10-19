@@ -14,7 +14,7 @@ String receivedData;
 void setup() {
   Serial.begin(baudrate); 
   palm.attach(pin);
-  palm.write(150);
+  palm.write(180);
 }
 
 void loop() {
@@ -23,7 +23,7 @@ void loop() {
     // if palm is open, set the servo angle to 0
     // otherwise, set it to 180 (maximum value)
     if(receivedData == "true") {
-      palm.write(150);
+      palm.write(180);
     } else {
       palm.write(50);
     }
