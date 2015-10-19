@@ -93,7 +93,7 @@
                      */
                     if (lm.app.states.isPalmOpen !== isPalmOpen) {
                         lm.app.states.isPalmOpen = isPalmOpen;
-                        lm.app.serial.router.write(isPalmOpen.toString());
+                        lm.app.serial.router.write(isPalmOpen.toString() + ',');
                         console.log('Palm is %s', isPalmOpen ? 'open' : 'closed');
                     }
                 });
